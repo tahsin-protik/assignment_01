@@ -1,4 +1,4 @@
-# Udplatform Assignment
+# Udplatforms Assignment
 
 ## How to run the project
 
