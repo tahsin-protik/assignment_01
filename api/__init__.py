@@ -3,7 +3,7 @@ from .utils.db import db
 from .main import setRoutes
 
 def create_app(config="Dev"):
-    database_uri="sqlite:///Database/database"
+    database_uri="sqlite:///Database"
     if config=="testing":
         database_uri="sqlite://"
     app=Flask(__name__)
