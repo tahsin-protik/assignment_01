@@ -1,4 +1,4 @@
-#Udplatform Assignment
+# Udplatform Assignment
 
 ## How to run the project
 
@@ -34,9 +34,9 @@ $ pip install -r requirements.txt
 python3 app.py
 ``` 
 
-##API Description
+## API Description
 
-###Create User:
+### Create User:
 - Method: POST with JSON Data
 - JSON must contain: username, first_name, last_name, user_type('Parent'/'Child')
 - For 'Parent' type user additionally provide: street, city, state, zip_code
@@ -46,7 +46,7 @@ python3 app.py
 /create
 ```
 
-###Update User:
+### Update User:
 - Method: POST with JSON Data
 - Json nust contain: username
 - Additional fields: Any of the user parameters excluding user_type. Adress attributes(street, city, state, zip_code) of Children type can not be updated. 'parent' attribute of Parent type user can not be updated.
@@ -55,7 +55,7 @@ python3 app.py
 /edit
 ```
 
-###Delete User:
+### Delete User:
 - Method: DELETE
 - Parameter: username
 - Endpoint:
