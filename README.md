@@ -40,7 +40,7 @@ python3 app.py
 - Method: POST with JSON Data
 - JSON must contain: username, first_name, last_name, user_type('Parent'/'Child')
 - For 'Parent' type user additionally provide: street, city, state, zip_code
-- For 'Children type user additionaly provide: parent
+- For 'Children' type user additionaly provide: parent
 - Endpoint:
 ```
 /create
